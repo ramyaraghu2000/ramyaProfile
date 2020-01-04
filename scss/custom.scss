@@ -16,10 +16,10 @@
 	nav {
 		ul li {
 			a {
-				color: lighten($secondary, 35%);
+				color: $li;
 			}
 			&.active a{
-				color: lighten($primary, 10%);
+				color: $active;
 			}
 		}
 	}
@@ -27,7 +27,7 @@
 
 .section {
 	&.second{
-		margin-bottom: 90px;
+		margin-bottom: 60px;
 	}
 	.container {
 		position: relative;
@@ -45,7 +45,7 @@
 }
 
 .intro {
-	padding: 95px 0px 70px 0px;
+	padding: 40px 0px 70px 0px;
 	overflow-x: hidden;
 
 	img {
@@ -72,6 +72,7 @@
 		}
 	}
 }
+
 
 .work {
 	.work-list {
@@ -144,4 +145,15 @@ footer {
 			}
 		}
 	}
+}
+
+#about{
+  background-image: url(../img/header-bg.jpeg)!important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
+
+}
+.white{
+  color:#fff!important;
 }
